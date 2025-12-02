@@ -1,0 +1,17 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略 AI 模型文件 (太大了传不上去)
+u2net_models/
+*.onnx
+
+# 忽略图片素材文件夹 (这是你测试用的，不用上传)
+raw_images/
+assets/
+
+# 忽略环境配置 (如果有)
+.env
+.venv
+env/
+venv/
